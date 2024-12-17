@@ -23,8 +23,16 @@ const Deportes = () => {
                 </div>
                 <div>
                     <img 
-                        src="/Imagenes1/Ecuavolley.jpg" 
+                        src="/Imagenes1/mma.jpg" 
                         alt="Deporte 3" 
+                        style={{ width: '300px', height: '200px', objectFit: 'cover' }}
+                    />
+                    <p>MMA</p>
+                </div>
+                <div>
+                    <img 
+                        src="/Imagenes1/Ecuavolley.jpg" 
+                        alt="Deporte 4" 
                         style={{ width: '300px', height: '200px', objectFit: 'cover' }}
                     />
                     <p>Ecuavolley</p>
