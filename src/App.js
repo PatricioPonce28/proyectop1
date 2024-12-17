@@ -1,8 +1,10 @@
 import React from 'react';
 import InfoPersonal from './InfoPersonal';
-import Estudios from './Estudios';
-import Herramientas from './Herramientas';
-import Deportes from './Deportes';
+import Estudios from './Components/Estudios';
+import Herramientas from './Components/Herramientas';
+import Deportes from './Components/Deportes';
+import Musica from './Components/Musica';
+import Hobbies from './Components/Hobbies';
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
           <Estudios />
           <Herramientas />
           <Deportes />
+          <Musica />
+          <Hobbies />
       </div>
   );
 };
